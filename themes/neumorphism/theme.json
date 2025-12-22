@@ -1,0 +1,27 @@
+{
+  "id": "neumorphism",
+  "name": "Soft UI",
+  "nameZh": "新拟态",
+  "version": "1.0.0",
+  "author": "vstats",
+  "description": "Soft shadows and embossed elements",
+  "descriptionZh": "柔和凸起阴影，同色背景，无边框",
+  "isDark": false,
+  "style": "neumorphic",
+  "preview": {
+    "primary": "#e0e5ec",
+    "secondary": "#e0e5ec",
+    "accent": "#6366f1",
+    "background": "#e0e5ec"
+  },
+  "fonts": {
+    "heading": "\"Nunito\", sans-serif",
+    "body": "\"Nunito\", system-ui, sans-serif",
+    "mono": "\"Source Code Pro\", monospace"
+  },
+  "borderRadius": "20px",
+  "cardStyle": "neumorphic",
+  "license": "MIT",
+  "keywords": ["light", "neumorphic", "soft", "embossed"]
+}
+

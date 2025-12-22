@@ -1,0 +1,27 @@
+{
+  "id": "industrial",
+  "name": "Industrial",
+  "nameZh": "工业科技",
+  "version": "1.0.0",
+  "author": "vstats",
+  "description": "Rugged, metallic, functional",
+  "descriptionZh": "警示条纹，金属质感，铆钉装饰，锐角设计",
+  "isDark": true,
+  "style": "brutalist",
+  "preview": {
+    "primary": "#202020",
+    "secondary": "#252525",
+    "accent": "#f59e0b",
+    "background": "#1a1a1a"
+  },
+  "fonts": {
+    "heading": "\"Rajdhani\", sans-serif",
+    "body": "\"Roboto Condensed\", sans-serif",
+    "mono": "\"Share Tech Mono\", monospace"
+  },
+  "borderRadius": "2px",
+  "cardStyle": "industrial",
+  "license": "MIT",
+  "keywords": ["dark", "industrial", "metallic", "rugged", "tech"]
+}
+

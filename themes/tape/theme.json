@@ -1,0 +1,27 @@
+{
+  "id": "tape",
+  "name": "Tape Futurism",
+  "nameZh": "磁带未来",
+  "version": "1.0.0",
+  "author": "vstats",
+  "description": "Analog cassette aesthetics",
+  "descriptionZh": "磁带纹理，VU表，暖色调，卷轴装饰",
+  "isDark": true,
+  "style": "flat",
+  "preview": {
+    "primary": "#1e1814",
+    "secondary": "#2b211c",
+    "accent": "#d75f27",
+    "background": "#1e1814"
+  },
+  "fonts": {
+    "heading": "\"Space Mono\", monospace",
+    "body": "\"Space Mono\", monospace",
+    "mono": "\"Space Mono\", monospace"
+  },
+  "borderRadius": "8px",
+  "cardStyle": "tape",
+  "license": "MIT",
+  "keywords": ["dark", "tape", "retro", "analog", "warm"]
+}
+

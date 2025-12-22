@@ -1,0 +1,27 @@
+{
+  "id": "terminal",
+  "name": "Hacker Terminal",
+  "nameZh": "黑客终端",
+  "version": "1.0.0",
+  "author": "vstats",
+  "description": "Retro terminal with scanlines",
+  "descriptionZh": "纯绿磷光，CRT扫描线，光标闪烁",
+  "isDark": true,
+  "style": "minimal",
+  "preview": {
+    "primary": "#050505",
+    "secondary": "#0a0a0a",
+    "accent": "#00ff41",
+    "background": "#050505"
+  },
+  "fonts": {
+    "heading": "\"VT323\", \"Fira Code\", monospace",
+    "body": "\"Fira Code\", \"IBM Plex Mono\", monospace",
+    "mono": "\"Fira Code\", monospace"
+  },
+  "borderRadius": "0px",
+  "cardStyle": "terminal",
+  "license": "MIT",
+  "keywords": ["dark", "terminal", "hacker", "retro", "monospace"]
+}
+

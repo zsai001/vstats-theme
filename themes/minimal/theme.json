@@ -1,0 +1,27 @@
+{
+  "id": "minimal",
+  "name": "Minimal Zen",
+  "nameZh": "极简禅意",
+  "version": "1.0.0",
+  "author": "vstats",
+  "description": "Maximum whitespace, minimal elements",
+  "descriptionZh": "大量留白，极细边框，微妙阴影",
+  "isDark": false,
+  "style": "minimal",
+  "preview": {
+    "primary": "#fafafa",
+    "secondary": "#ffffff",
+    "accent": "#18181b",
+    "background": "#fafafa"
+  },
+  "fonts": {
+    "heading": "\"DM Sans\", sans-serif",
+    "body": "\"DM Sans\", system-ui, sans-serif",
+    "mono": "\"DM Mono\", monospace"
+  },
+  "borderRadius": "6px",
+  "cardStyle": "minimal",
+  "license": "MIT",
+  "keywords": ["light", "minimal", "zen", "clean"]
+}
+

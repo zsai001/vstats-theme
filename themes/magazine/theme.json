@@ -1,0 +1,27 @@
+{
+  "id": "magazine",
+  "name": "Magazine",
+  "nameZh": "杂志排版",
+  "version": "1.0.0",
+  "author": "vstats",
+  "description": "Bold typography and grid layout",
+  "descriptionZh": "大胆排版，衬线字体，分栏线，报纸风格",
+  "isDark": false,
+  "style": "flat",
+  "preview": {
+    "primary": "#ffffff",
+    "secondary": "#fafaf8",
+    "accent": "#cc0000",
+    "background": "#fafaf8"
+  },
+  "fonts": {
+    "heading": "\"Playfair Display\", serif",
+    "body": "\"Inter\", sans-serif",
+    "mono": "\"Courier New\", monospace"
+  },
+  "borderRadius": "0px",
+  "cardStyle": "magazine",
+  "license": "MIT",
+  "keywords": ["light", "magazine", "editorial", "serif", "typography"]
+}
+

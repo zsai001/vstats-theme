@@ -1,0 +1,27 @@
+{
+  "id": "cyberpunk",
+  "name": "Cyberpunk 2077",
+  "nameZh": "赛博朋克",
+  "version": "1.0.0",
+  "author": "vstats",
+  "description": "Neon lights, glitch effects, futuristic",
+  "descriptionZh": "霓虹渐变边框，故障艺术，扫描动画",
+  "isDark": true,
+  "style": "brutalist",
+  "preview": {
+    "primary": "#0a0a0f",
+    "secondary": "#1a1a2e",
+    "accent": "#ff00ff",
+    "background": "#0a0a0f"
+  },
+  "fonts": {
+    "heading": "\"Orbitron\", \"Rajdhani\", sans-serif",
+    "body": "\"Rajdhani\", \"Share Tech Mono\", sans-serif",
+    "mono": "\"Share Tech Mono\", monospace"
+  },
+  "borderRadius": "4px",
+  "cardStyle": "neon",
+  "license": "MIT",
+  "keywords": ["dark", "neon", "cyberpunk", "futuristic", "glitch"]
+}
+

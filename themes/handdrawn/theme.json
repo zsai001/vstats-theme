@@ -1,0 +1,27 @@
+{
+  "id": "handdrawn",
+  "name": "Hand-drawn",
+  "nameZh": "手绘风",
+  "version": "1.0.0",
+  "author": "vstats",
+  "description": "Sketchy borders and comic fonts",
+  "descriptionZh": "不规则手绘边框，涂鸦装饰，手写字体",
+  "isDark": false,
+  "style": "flat",
+  "preview": {
+    "primary": "#fffef8",
+    "secondary": "#fff9e8",
+    "accent": "#2c2c2c",
+    "background": "#fffef8"
+  },
+  "fonts": {
+    "heading": "\"Patrick Hand\", \"Comic Sans MS\", sans-serif",
+    "body": "\"Patrick Hand\", \"Comic Sans MS\", sans-serif",
+    "mono": "\"Patrick Hand\", monospace"
+  },
+  "borderRadius": "255px 15px 225px 15px/15px 225px 15px 255px",
+  "cardStyle": "handdrawn",
+  "license": "MIT",
+  "keywords": ["light", "handdrawn", "sketch", "comic", "playful"]
+}
+

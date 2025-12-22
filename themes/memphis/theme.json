@@ -1,0 +1,27 @@
+{
+  "id": "memphis",
+  "name": "Memphis",
+  "nameZh": "孟菲斯",
+  "version": "1.0.0",
+  "author": "vstats",
+  "description": "Geometric shapes and vibrant colors",
+  "descriptionZh": "几何图形装饰，鲜艳撞色，波普艺术",
+  "isDark": false,
+  "style": "flat",
+  "preview": {
+    "primary": "#fff5f8",
+    "secondary": "#ffffff",
+    "accent": "#ff00cc",
+    "background": "#fff5f8"
+  },
+  "fonts": {
+    "heading": "\"Work Sans\", sans-serif",
+    "body": "\"Work Sans\", sans-serif",
+    "mono": "\"Fira Code\", monospace"
+  },
+  "borderRadius": "0px",
+  "cardStyle": "memphis",
+  "license": "MIT",
+  "keywords": ["light", "memphis", "geometric", "80s", "pop"]
+}
+

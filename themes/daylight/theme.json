@@ -1,0 +1,27 @@
+{
+  "id": "daylight",
+  "name": "Daylight",
+  "nameZh": "晴空日光",
+  "version": "1.0.0",
+  "author": "vstats",
+  "description": "Clean and bright with soft shadows",
+  "descriptionZh": "纯净白色，天蓝渐变，柔和阴影",
+  "isDark": false,
+  "style": "flat",
+  "preview": {
+    "primary": "#ffffff",
+    "secondary": "#f8fafc",
+    "accent": "#0ea5e9",
+    "background": "#e0f2fe"
+  },
+  "fonts": {
+    "heading": "\"Plus Jakarta Sans\", sans-serif",
+    "body": "\"Inter\", system-ui, sans-serif",
+    "mono": "\"JetBrains Mono\", monospace"
+  },
+  "borderRadius": "20px",
+  "cardStyle": "elevated",
+  "license": "MIT",
+  "keywords": ["light", "clean", "bright", "minimal"]
+}
+

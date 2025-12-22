@@ -1,0 +1,27 @@
+{
+  "id": "retro",
+  "name": "Retro",
+  "nameZh": "复古风",
+  "version": "1.0.0",
+  "author": "vstats",
+  "description": "Nostalgic warm colors and serif fonts",
+  "descriptionZh": "Solarized配色，打字机字体，纸张纹理",
+  "isDark": false,
+  "style": "flat",
+  "preview": {
+    "primary": "#fdf6e3",
+    "secondary": "#eee8d5",
+    "accent": "#cb4b16",
+    "background": "#fdf6e3"
+  },
+  "fonts": {
+    "heading": "\"Merriweather\", \"Georgia\", serif",
+    "body": "\"Merriweather\", \"Georgia\", serif",
+    "mono": "\"Courier New\", monospace"
+  },
+  "borderRadius": "4px",
+  "cardStyle": "retro",
+  "license": "MIT",
+  "keywords": ["light", "retro", "vintage", "solarized", "serif"]
+}
+

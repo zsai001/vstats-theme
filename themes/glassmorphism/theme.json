@@ -1,0 +1,27 @@
+{
+  "id": "glassmorphism",
+  "name": "Glass UI",
+  "nameZh": "毛玻璃",
+  "version": "1.0.0",
+  "author": "vstats",
+  "description": "Frosted glass with vibrant backgrounds",
+  "descriptionZh": "强烈毛玻璃，彩色渐变，浮动光斑",
+  "isDark": true,
+  "style": "glass",
+  "preview": {
+    "primary": "rgba(255,255,255,0.12)",
+    "secondary": "rgba(255,255,255,0.08)",
+    "accent": "#a855f7",
+    "background": "#667eea"
+  },
+  "fonts": {
+    "heading": "\"Poppins\", sans-serif",
+    "body": "\"Inter\", system-ui, sans-serif",
+    "mono": "\"JetBrains Mono\", monospace"
+  },
+  "borderRadius": "24px",
+  "cardStyle": "frosted",
+  "license": "MIT",
+  "keywords": ["dark", "glass", "blur", "gradient", "purple"]
+}
+

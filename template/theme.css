@@ -1,0 +1,351 @@
+/* ========================================
+   Theme: My Custom Theme
+   Author: your-username
+   Version: 1.0.0
+   
+   IMPORTANT: Replace "my-custom-theme" with your theme ID
+   from theme.json in all class selectors below.
+   ======================================== */
+
+/* ========================================
+   1. ROOT VARIABLES
+   Define your theme's color palette and core styles
+   ======================================== */
+.theme-my-custom-theme {
+  /* Accent Colors */
+  --theme-accent: #6366f1;
+  --theme-accent-hover: #4f46e5;
+  --theme-accent-soft: rgba(99, 102, 241, 0.15);
+  --theme-glow: rgba(99, 102, 241, 0.4);
+  
+  /* Background Colors */
+  --bg-primary: #0a0a1a;
+  --bg-secondary: rgba(21, 21, 48, 0.85);
+  --bg-secondary-hover: rgba(30, 30, 60, 0.9);
+  --bg-card: rgba(21, 21, 48, 0.7);
+  --bg-input: rgba(255, 255, 255, 0.08);
+  
+  /* Text Colors */
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-tertiary: #94a3b8;
+  --text-muted: #64748b;
+  
+  /* Border Colors */
+  --border-primary: rgba(99, 102, 241, 0.2);
+  --border-secondary: rgba(99, 102, 241, 0.3);
+  --border-hover: rgba(99, 102, 241, 0.5);
+  
+  /* Page Background Gradient */
+  --page-bg-dark: 
+    radial-gradient(ellipse at 0% 0%, rgba(99, 102, 241, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 100% 0%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
+    radial-gradient(ellipse at 100% 100%, rgba(99, 102, 241, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 0% 100%, rgba(139, 92, 246, 0.05) 0%, transparent 50%),
+    #0a0a1a;
+  
+  /* Card Styles */
+  --card-bg-dark: rgba(21, 21, 48, 0.7);
+  --card-border-dark: rgba(99, 102, 241, 0.25);
+  --card-shadow-dark: 0 20px 50px rgba(0, 0, 0, 0.5);
+  
+  /* Shadows */
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4);
+  
+  /* Color scheme hint for browser */
+  color-scheme: dark;
+}
+
+/* ========================================
+   2. PAGE BACKGROUND
+   ======================================== */
+.theme-my-custom-theme {
+  background: var(--page-bg-dark);
+}
+
+/* Force border radius on all theme elements */
+.theme-my-custom-theme,
+.theme-my-custom-theme * {
+  --theme-border-radius: 12px !important;
+}
+
+/* ========================================
+   3. TYPOGRAPHY
+   ======================================== */
+.theme-my-custom-theme {
+  font-family: 'Inter', -apple-system, system-ui, sans-serif;
+}
+
+.theme-my-custom-theme h1,
+.theme-my-custom-theme h2,
+.theme-my-custom-theme h3,
+.theme-my-custom-theme .vps-card-title--dark {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* ========================================
+   4. CARD STYLES
+   Main server cards and content containers
+   ======================================== */
+.theme-my-custom-theme .vps-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--border-primary);
+  border-radius: 12px !important;
+  box-shadow: var(--shadow-card),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+  transition: all 0.3s ease;
+}
+
+.theme-my-custom-theme .vps-card:hover {
+  border-color: var(--border-hover);
+  box-shadow: 
+    0 25px 60px rgba(0, 0, 0, 0.6),
+    0 0 40px var(--theme-accent-soft),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  transform: translateY(-4px);
+}
+
+/* ========================================
+   5. OVERVIEW CARDS (Dashboard Stats)
+   ======================================== */
+.theme-my-custom-theme .vps-overview-card--online-my-custom-theme {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(52, 211, 153, 0.08));
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  border-radius: 12px !important;
+  backdrop-filter: blur(20px);
+}
+
+.theme-my-custom-theme .vps-overview-card--offline-my-custom-theme {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.2), rgba(248, 113, 113, 0.08));
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  border-radius: 12px !important;
+  backdrop-filter: blur(20px);
+}
+
+.theme-my-custom-theme .vps-overview-card--download-my-custom-theme {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(129, 140, 248, 0.08));
+  border: 1px solid rgba(99, 102, 241, 0.35);
+  border-radius: 12px !important;
+  backdrop-filter: blur(20px);
+}
+
+.theme-my-custom-theme .vps-overview-card--upload-my-custom-theme {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(52, 211, 153, 0.08));
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  border-radius: 12px !important;
+  backdrop-filter: blur(20px);
+}
+
+/* Overview Labels */
+.theme-my-custom-theme .vps-overview-label--online { color: #34d399; }
+.theme-my-custom-theme .vps-overview-label--offline { color: #f87171; }
+.theme-my-custom-theme .vps-overview-label--download { color: #818cf8; }
+.theme-my-custom-theme .vps-overview-label--upload { color: #34d399; }
+
+.theme-my-custom-theme .vps-overview-value--my-custom-theme {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* ========================================
+   6. COMPACT TABLE VIEW
+   ======================================== */
+.theme-my-custom-theme .vps-compact-header--my-custom-theme {
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-muted);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px 12px 0 0 !important;
+}
+
+.theme-my-custom-theme .vps-compact-row--my-custom-theme {
+  background: var(--bg-card);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.theme-my-custom-theme .vps-compact-row--my-custom-theme:hover {
+  background: var(--bg-secondary-hover);
+}
+
+.theme-my-custom-theme .vps-compact-node-name--my-custom-theme {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.theme-my-custom-theme .vps-compact-node-location--my-custom-theme {
+  color: var(--text-muted);
+}
+
+.theme-my-custom-theme .vps-compact-text--my-custom-theme {
+  color: var(--text-tertiary);
+}
+
+.theme-my-custom-theme .vps-compact-meter--my-custom-theme {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px !important;
+}
+
+.theme-my-custom-theme .vps-compact-meter-text--my-custom-theme {
+  color: var(--text-primary);
+}
+
+/* ========================================
+   7. PROGRESS BARS
+   ======================================== */
+.theme-my-custom-theme .vps-resource-bar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px !important;
+}
+
+.theme-my-custom-theme .vps-resource-bar-fill {
+  border-radius: 8px !important;
+  background: linear-gradient(90deg, var(--theme-accent), #818cf8);
+  box-shadow: 0 0 10px var(--theme-accent-soft);
+}
+
+/* ========================================
+   8. BUTTONS
+   ======================================== */
+.theme-my-custom-theme .vps-btn,
+.theme-my-custom-theme button {
+  background: var(--theme-accent-soft);
+  border: 1px solid var(--border-secondary);
+  border-radius: 12px !important;
+  color: var(--text-primary);
+  backdrop-filter: blur(10px);
+  transition: all 0.2s ease;
+}
+
+.theme-my-custom-theme .vps-btn:hover,
+.theme-my-custom-theme button:hover {
+  background: rgba(99, 102, 241, 0.25);
+  border-color: var(--border-hover);
+  box-shadow: 0 0 20px var(--theme-accent-soft);
+}
+
+/* Primary Button */
+.theme-my-custom-theme .vps-btn-primary,
+.theme-my-custom-theme button[type="submit"] {
+  background: linear-gradient(135deg, var(--theme-accent) 0%, #4f46e5 100%);
+  border: none;
+  box-shadow: 0 4px 16px var(--theme-accent-soft);
+}
+
+.theme-my-custom-theme .vps-btn-primary:hover,
+.theme-my-custom-theme button[type="submit"]:hover {
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.4);
+}
+
+/* ========================================
+   9. FORM ELEMENTS
+   ======================================== */
+.theme-my-custom-theme input,
+.theme-my-custom-theme select,
+.theme-my-custom-theme textarea {
+  background: var(--bg-input);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px !important;
+  color: var(--text-primary);
+  backdrop-filter: blur(10px);
+}
+
+.theme-my-custom-theme input:focus,
+.theme-my-custom-theme select:focus,
+.theme-my-custom-theme textarea:focus {
+  border-color: var(--border-hover);
+  outline: none;
+  box-shadow: 0 0 0 3px var(--theme-accent-soft);
+}
+
+.theme-my-custom-theme input::placeholder,
+.theme-my-custom-theme textarea::placeholder {
+  color: var(--text-muted);
+}
+
+/* ========================================
+   10. SCROLLBAR (Optional)
+   ======================================== */
+.theme-my-custom-theme ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.theme-my-custom-theme ::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
+
+.theme-my-custom-theme ::-webkit-scrollbar-thumb {
+  background: var(--theme-accent-soft);
+  border-radius: 4px;
+}
+
+.theme-my-custom-theme ::-webkit-scrollbar-thumb:hover {
+  background: var(--border-secondary);
+}
+
+/* ========================================
+   11. LINKS
+   ======================================== */
+.theme-my-custom-theme a {
+  color: var(--theme-accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.theme-my-custom-theme a:hover {
+  color: var(--theme-accent-hover);
+}
+
+/* ========================================
+   12. BADGES & TAGS
+   ======================================== */
+.theme-my-custom-theme .badge,
+.theme-my-custom-theme .tag {
+  background: var(--theme-accent-soft);
+  border: 1px solid var(--border-primary);
+  border-radius: 6px;
+  color: var(--theme-accent);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+}
+
+/* ========================================
+   13. TOOLTIPS (Optional)
+   ======================================== */
+.theme-my-custom-theme [data-tooltip]::after {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+  border-radius: 8px;
+  color: var(--text-primary);
+  padding: 0.5rem 0.75rem;
+}
+
+/* ========================================
+   14. MODAL/DIALOG (Optional)
+   ======================================== */
+.theme-my-custom-theme .modal,
+.theme-my-custom-theme .dialog {
+  background: var(--bg-card);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--border-primary);
+  border-radius: 16px;
+  box-shadow: var(--card-shadow-dark);
+}
+
+/* ========================================
+   CUSTOMIZATION NOTES:
+   
+   1. Replace all "my-custom-theme" with your theme ID
+   2. Adjust colors in the root variables section
+   3. Test with different server states (online/offline)
+   4. Check both light and dark browser preferences
+   5. Verify on different screen sizes
+   
+   For more help, see:
+   https://github.com/user/vstats/docs/THEME-DEVELOPMENT.md
+   ======================================== */
+

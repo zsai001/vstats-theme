@@ -1,0 +1,27 @@
+{
+  "id": "aesthetic",
+  "name": "Aesthetic",
+  "nameZh": "少女审美",
+  "version": "1.0.0",
+  "author": "vstats",
+  "description": "Soft pastels and dreamy vibes",
+  "descriptionZh": "梦幻渐变背景，柔和粉彩，星星装饰",
+  "isDark": false,
+  "style": "glass",
+  "preview": {
+    "primary": "rgba(255,255,255,0.65)",
+    "secondary": "#ffe4ec",
+    "accent": "#ff69b4",
+    "background": "#ffecd2"
+  },
+  "fonts": {
+    "heading": "\"Quicksand\", sans-serif",
+    "body": "\"Quicksand\", sans-serif",
+    "mono": "\"Fira Code\", monospace"
+  },
+  "borderRadius": "24px",
+  "cardStyle": "aesthetic",
+  "license": "MIT",
+  "keywords": ["light", "aesthetic", "pastel", "pink", "dreamy"]
+}
+

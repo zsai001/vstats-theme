@@ -1,0 +1,27 @@
+{
+  "id": "skeuomorphic",
+  "name": "Skeuomorphic",
+  "nameZh": "拟物风",
+  "version": "1.0.0",
+  "author": "vstats",
+  "description": "Realistic textures and depth",
+  "descriptionZh": "真实质感，光泽渐变，立体按钮，iOS6风格",
+  "isDark": false,
+  "style": "neumorphic",
+  "preview": {
+    "primary": "#f5f5f5",
+    "secondary": "#e0e0e0",
+    "accent": "#2e7d32",
+    "background": "#c0c0c0"
+  },
+  "fonts": {
+    "heading": "\"Helvetica Neue\", sans-serif",
+    "body": "\"Helvetica Neue\", sans-serif",
+    "mono": "\"Menlo\", monospace"
+  },
+  "borderRadius": "10px",
+  "cardStyle": "skeuomorphic",
+  "license": "MIT",
+  "keywords": ["light", "skeuomorphic", "realistic", "ios6", "3d"]
+}
+
