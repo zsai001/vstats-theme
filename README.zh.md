@@ -39,23 +39,115 @@ vstats-theme/
 
 ## 可用主题
 
-| 主题 | 风格 | 模式 | 安装命令 |
-|------|------|------|----------|
-| 晴空日光 | Flat | 浅色 | `vstats-theme/themes/daylight` |
-| 赛博朋克 | Brutalist | 深色 | `vstats-theme/themes/cyberpunk` |
-| 黑客终端 | Minimal | 深色 | `vstats-theme/themes/terminal` |
-| 毛玻璃 | Glass | 深色 | `vstats-theme/themes/glassmorphism` |
-| 新拟态 | Neumorphic | 浅色 | `vstats-theme/themes/neumorphism` |
-| 野兽派 | Brutalist | 浅色 | `vstats-theme/themes/brutalist` |
-| 极简禅意 | Minimal | 浅色 | `vstats-theme/themes/minimal` |
-| 复古风 | Flat | 浅色 | `vstats-theme/themes/retro` |
-| 磁带未来 | Flat | 深色 | `vstats-theme/themes/tape` |
-| 手绘风 | Flat | 浅色 | `vstats-theme/themes/handdrawn` |
-| 孟菲斯 | Flat | 浅色 | `vstats-theme/themes/memphis` |
-| 拟物风 | Neumorphic | 浅色 | `vstats-theme/themes/skeuomorphic` |
-| 少女审美 | Glass | 浅色 | `vstats-theme/themes/aesthetic` |
-| 杂志排版 | Flat | 浅色 | `vstats-theme/themes/magazine` |
-| 工业科技 | Brutalist | 深色 | `vstats-theme/themes/industrial` |
+### 主题预览
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="themes/daylight/preview.png" width="200" alt="晴空日光"/><br/>
+      <b>晴空日光</b><br/>
+      <sub>Flat · 浅色</sub>
+    </td>
+    <td align="center">
+      <img src="themes/cyberpunk/preview.png" width="200" alt="赛博朋克"/><br/>
+      <b>赛博朋克</b><br/>
+      <sub>Brutalist · 深色</sub>
+    </td>
+    <td align="center">
+      <img src="themes/terminal/preview.png" width="200" alt="黑客终端"/><br/>
+      <b>黑客终端</b><br/>
+      <sub>Minimal · 深色</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="themes/glassmorphism/preview.png" width="200" alt="毛玻璃"/><br/>
+      <b>毛玻璃</b><br/>
+      <sub>Glass · 深色</sub>
+    </td>
+    <td align="center">
+      <img src="themes/neumorphism/preview.png" width="200" alt="新拟态"/><br/>
+      <b>新拟态</b><br/>
+      <sub>Neumorphic · 浅色</sub>
+    </td>
+    <td align="center">
+      <img src="themes/brutalist/preview.png" width="200" alt="野兽派"/><br/>
+      <b>野兽派</b><br/>
+      <sub>Brutalist · 浅色</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="themes/minimal/preview.png" width="200" alt="极简禅意"/><br/>
+      <b>极简禅意</b><br/>
+      <sub>Minimal · 浅色</sub>
+    </td>
+    <td align="center">
+      <img src="themes/retro/preview.png" width="200" alt="复古风"/><br/>
+      <b>复古风</b><br/>
+      <sub>Flat · 浅色</sub>
+    </td>
+    <td align="center">
+      <img src="themes/tape/preview.png" width="200" alt="磁带未来"/><br/>
+      <b>磁带未来</b><br/>
+      <sub>Flat · 深色</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="themes/handdrawn/preview.png" width="200" alt="手绘风"/><br/>
+      <b>手绘风</b><br/>
+      <sub>Flat · 浅色</sub>
+    </td>
+    <td align="center">
+      <img src="themes/memphis/preview.png" width="200" alt="孟菲斯"/><br/>
+      <b>孟菲斯</b><br/>
+      <sub>Flat · 浅色</sub>
+    </td>
+    <td align="center">
+      <img src="themes/skeuomorphic/preview.png" width="200" alt="拟物风"/><br/>
+      <b>拟物风</b><br/>
+      <sub>Neumorphic · 浅色</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="themes/aesthetic/preview.png" width="200" alt="少女审美"/><br/>
+      <b>少女审美</b><br/>
+      <sub>Glass · 浅色</sub>
+    </td>
+    <td align="center">
+      <img src="themes/magazine/preview.png" width="200" alt="杂志排版"/><br/>
+      <b>杂志排版</b><br/>
+      <sub>Flat · 浅色</sub>
+    </td>
+    <td align="center">
+      <img src="themes/industrial/preview.png" width="200" alt="工业科技"/><br/>
+      <b>工业科技</b><br/>
+      <sub>Brutalist · 深色</sub>
+    </td>
+  </tr>
+</table>
+
+### 安装命令
+
+| 主题 | 安装命令 |
+|------|----------|
+| 晴空日光 | `zsai001/vstats-theme/themes/daylight` |
+| 赛博朋克 | `zsai001/vstats-theme/themes/cyberpunk` |
+| 黑客终端 | `zsai001/vstats-theme/themes/terminal` |
+| 毛玻璃 | `zsai001/vstats-theme/themes/glassmorphism` |
+| 新拟态 | `zsai001/vstats-theme/themes/neumorphism` |
+| 野兽派 | `zsai001/vstats-theme/themes/brutalist` |
+| 极简禅意 | `zsai001/vstats-theme/themes/minimal` |
+| 复古风 | `zsai001/vstats-theme/themes/retro` |
+| 磁带未来 | `zsai001/vstats-theme/themes/tape` |
+| 手绘风 | `zsai001/vstats-theme/themes/handdrawn` |
+| 孟菲斯 | `zsai001/vstats-theme/themes/memphis` |
+| 拟物风 | `zsai001/vstats-theme/themes/skeuomorphic` |
+| 少女审美 | `zsai001/vstats-theme/themes/aesthetic` |
+| 杂志排版 | `zsai001/vstats-theme/themes/magazine` |
+| 工业科技 | `zsai001/vstats-theme/themes/industrial` |
 
 ## 创建你的主题
 

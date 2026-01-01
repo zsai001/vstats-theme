@@ -39,23 +39,115 @@ vstats-theme/
 
 ## Available Themes
 
-| Theme | Style | Mode | Install |
-|-------|-------|------|---------|
-| Daylight | Flat | Light | `vstats-theme/themes/daylight` |
-| Cyberpunk | Brutalist | Dark | `vstats-theme/themes/cyberpunk` |
-| Terminal | Minimal | Dark | `vstats-theme/themes/terminal` |
-| Glassmorphism | Glass | Dark | `vstats-theme/themes/glassmorphism` |
-| Neumorphism | Neumorphic | Light | `vstats-theme/themes/neumorphism` |
-| Brutalist | Brutalist | Light | `vstats-theme/themes/brutalist` |
-| Minimal | Minimal | Light | `vstats-theme/themes/minimal` |
-| Retro | Flat | Light | `vstats-theme/themes/retro` |
-| Tape | Flat | Dark | `vstats-theme/themes/tape` |
-| Hand-drawn | Flat | Light | `vstats-theme/themes/handdrawn` |
-| Memphis | Flat | Light | `vstats-theme/themes/memphis` |
-| Skeuomorphic | Neumorphic | Light | `vstats-theme/themes/skeuomorphic` |
-| Aesthetic | Glass | Light | `vstats-theme/themes/aesthetic` |
-| Magazine | Flat | Light | `vstats-theme/themes/magazine` |
-| Industrial | Brutalist | Dark | `vstats-theme/themes/industrial` |
+### Theme Gallery
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="themes/daylight/preview.png" width="200" alt="Daylight"/><br/>
+      <b>Daylight</b><br/>
+      <sub>Flat · Light</sub>
+    </td>
+    <td align="center">
+      <img src="themes/cyberpunk/preview.png" width="200" alt="Cyberpunk"/><br/>
+      <b>Cyberpunk</b><br/>
+      <sub>Brutalist · Dark</sub>
+    </td>
+    <td align="center">
+      <img src="themes/terminal/preview.png" width="200" alt="Terminal"/><br/>
+      <b>Terminal</b><br/>
+      <sub>Minimal · Dark</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="themes/glassmorphism/preview.png" width="200" alt="Glassmorphism"/><br/>
+      <b>Glassmorphism</b><br/>
+      <sub>Glass · Dark</sub>
+    </td>
+    <td align="center">
+      <img src="themes/neumorphism/preview.png" width="200" alt="Neumorphism"/><br/>
+      <b>Neumorphism</b><br/>
+      <sub>Neumorphic · Light</sub>
+    </td>
+    <td align="center">
+      <img src="themes/brutalist/preview.png" width="200" alt="Brutalist"/><br/>
+      <b>Brutalist</b><br/>
+      <sub>Brutalist · Light</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="themes/minimal/preview.png" width="200" alt="Minimal"/><br/>
+      <b>Minimal</b><br/>
+      <sub>Minimal · Light</sub>
+    </td>
+    <td align="center">
+      <img src="themes/retro/preview.png" width="200" alt="Retro"/><br/>
+      <b>Retro</b><br/>
+      <sub>Flat · Light</sub>
+    </td>
+    <td align="center">
+      <img src="themes/tape/preview.png" width="200" alt="Tape"/><br/>
+      <b>Tape</b><br/>
+      <sub>Flat · Dark</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="themes/handdrawn/preview.png" width="200" alt="Hand-drawn"/><br/>
+      <b>Hand-drawn</b><br/>
+      <sub>Flat · Light</sub>
+    </td>
+    <td align="center">
+      <img src="themes/memphis/preview.png" width="200" alt="Memphis"/><br/>
+      <b>Memphis</b><br/>
+      <sub>Flat · Light</sub>
+    </td>
+    <td align="center">
+      <img src="themes/skeuomorphic/preview.png" width="200" alt="Skeuomorphic"/><br/>
+      <b>Skeuomorphic</b><br/>
+      <sub>Neumorphic · Light</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="themes/aesthetic/preview.png" width="200" alt="Aesthetic"/><br/>
+      <b>Aesthetic</b><br/>
+      <sub>Glass · Light</sub>
+    </td>
+    <td align="center">
+      <img src="themes/magazine/preview.png" width="200" alt="Magazine"/><br/>
+      <b>Magazine</b><br/>
+      <sub>Flat · Light</sub>
+    </td>
+    <td align="center">
+      <img src="themes/industrial/preview.png" width="200" alt="Industrial"/><br/>
+      <b>Industrial</b><br/>
+      <sub>Brutalist · Dark</sub>
+    </td>
+  </tr>
+</table>
+
+### Installation Commands
+
+| Theme | Install |
+|-------|---------|
+| Daylight | `zsai001/vstats-theme/themes/daylight` |
+| Cyberpunk | `zsai001/vstats-theme/themes/cyberpunk` |
+| Terminal | `zsai001/vstats-theme/themes/terminal` |
+| Glassmorphism | `zsai001/vstats-theme/themes/glassmorphism` |
+| Neumorphism | `zsai001/vstats-theme/themes/neumorphism` |
+| Brutalist | `zsai001/vstats-theme/themes/brutalist` |
+| Minimal | `zsai001/vstats-theme/themes/minimal` |
+| Retro | `zsai001/vstats-theme/themes/retro` |
+| Tape | `zsai001/vstats-theme/themes/tape` |
+| Hand-drawn | `zsai001/vstats-theme/themes/handdrawn` |
+| Memphis | `zsai001/vstats-theme/themes/memphis` |
+| Skeuomorphic | `zsai001/vstats-theme/themes/skeuomorphic` |
+| Aesthetic | `zsai001/vstats-theme/themes/aesthetic` |
+| Magazine | `zsai001/vstats-theme/themes/magazine` |
+| Industrial | `zsai001/vstats-theme/themes/industrial` |
 
 ## Creating Your Theme
 

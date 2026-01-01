@@ -1,0 +1,18 @@
+{
+  "name": "vstats-theme",
+  "version": "1.0.0",
+  "description": "为 [VStats](https://github.com/user/vstats) 服务器监控面板创建自定义主题。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "generate-previews": "node scripts/generate-previews.js"
+  },
+  "keywords": ["vstats", "theme", "dashboard"],
+  "author": "vstats",
+  "license": "MIT",
+  "devDependencies": {
+    "canvas": "^3.2.0"
+  }
+}
